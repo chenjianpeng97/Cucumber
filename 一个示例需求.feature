@@ -9,7 +9,7 @@ Feature: 财务可以对经销商账户进行调整
     And "健康医疗"账户余额为"500"元
 
   @happy_path
-  Scenario Outline: "财务"调整经销商账户余额
+  Scenario Outline: "财务"调整经销商账户"余额"
     When "钱经理"对"健康医疗"的账户做<操作>并输入<变化值>
     Then 本次操作<结果>
     Examples: 操作成功
